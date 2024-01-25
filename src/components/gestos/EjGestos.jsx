@@ -56,8 +56,8 @@ export default function EjGestos() {
 
       //Cambiar color cuando se señale con el dedo
       if (label === 'point') {
-        setBackgroundColor((prevColor) =>
-          prevColor === 'pink' ? 'black' : 'pink'
+        setBackgroundColor((Color) =>
+          Color === 'pink' ? 'black' : 'pink'
         );
       }
 

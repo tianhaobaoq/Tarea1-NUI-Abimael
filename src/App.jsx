@@ -4,6 +4,7 @@ import VozEj1 from './components/VozEj1'
 import VozEj2 from './components/VozEj2'
 import Gestos from './components/Gestos'
 import AR from './components/AR'
+import ARAbimael from './components/ar/ARAbimael'
 import Home from './components/Home'
 
 
@@ -39,6 +40,11 @@ const router = createBrowserRouter([
       {
         path: '/ar',
         element: <AR />
+      },
+
+      {
+        path: '/arAbimael',
+        element: <ARAbimael />
       }
     ]
   }
