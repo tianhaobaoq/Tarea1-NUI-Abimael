@@ -21,7 +21,6 @@ function Scene() {
     </>
   );
 }
-
 function ARAbimael() {
   return (
     <> 
@@ -35,5 +34,4 @@ function ARAbimael() {
     </>
   );
 }
-
 export default ARAbimael;

@@ -56,6 +56,7 @@ export default function EjGestos() {
 
       //Cambiar color cuando se señale con el dedo
       if (label === 'point') {
+        console.log("No me apuntes")
         setBackgroundColor((Color) =>
           Color === 'pink' ? 'black' : 'pink'
         );

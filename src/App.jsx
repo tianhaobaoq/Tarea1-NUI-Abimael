@@ -18,7 +18,11 @@ const router = createBrowserRouter([
   {
     path: '/',
     children: [
-    
+         
+      {
+        path: '/arAbimael',
+        element: <ARAbimael />
+      },       
       {
         index: true,
         element: <Home />
@@ -40,11 +44,6 @@ const router = createBrowserRouter([
       {
         path: '/ar',
         element: <AR />
-      },
-
-      {
-        path: '/arAbimael',
-        element: <ARAbimael />
       }
     ]
   }
