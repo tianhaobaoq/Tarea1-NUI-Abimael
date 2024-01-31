@@ -55,10 +55,9 @@ export default function EjGestos() {
       predictions.map((prediction) => setLabel(prediction.label));
 
       //Cambiar color cuando se señale con el dedo
-      if (label === 'point') {
+      if (label === "point") {
         console.log("No me apuntes")
-        setBackgroundColor(("#6BACFE")
-        );
+        setBackgroundColor("#6BACFE")
       }
 
       if (label === "open") {
